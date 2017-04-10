@@ -1,6 +1,6 @@
 ## Import Raw data into Rstudio
 getwd()
-data_full <- read.csv(file = "C:/Users/HMF05638/Documents/Coursera2/household_power_consumption.txt",
+data_full <- read.csv(file = "./household_power_consumption.txt",
                       header = TRUE, sep = ";")
 data_full$Date <- as.Date(data_full$Date, format="%d/%m/%Y")
 
